@@ -28,7 +28,7 @@ const randomAmong = (num1, num2) => {
   
   const f = (a,b) => {
   
-      const dat = new Date()
+      const dat = new Date();
   
       dat.setDate(randomAmong(a,b))
   
