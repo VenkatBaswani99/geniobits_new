@@ -18,7 +18,7 @@ const randomAmong = (num1, num2) => {
   
       const j = Math.floor(Math.random() * (i + 1));
   
-      [array[i], array[j]] = [array[j], array[i]];
+      [array[i], array[j]] = [array[j], array[i]]
   
     }
   
