@@ -12,7 +12,7 @@ const randomAmong = (num1, num2) => {
   
   const shuffle = (arr) => {
   
-    let array = arr.slice()
+    let array = arr.slice();
   
     for (let i = array.length - 1; i > 0; i--) {
   
